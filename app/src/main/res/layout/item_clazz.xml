@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/beanC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/item_clazz_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@id/i1"
+        android:textSize="@dimen/text_size_16"
+        app:layout_constraintTop_toTopOf="@id/i1"
+        app:layout_constraintBottom_toBottomOf="@id/i1"/>
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/i1"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/item_clazz_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_16"
+        app:layout_constraintStart_toEndOf="@id/i2"
+        android:layout_marginStart="@dimen/text_size_12"
+        app:layout_constraintTop_toTopOf="@id/i2"
+        app:layout_constraintBottom_toBottomOf="@id/i2"/>
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/i2"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/item_clazz_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_16"
+        app:layout_constraintStart_toEndOf="@id/i3"
+        android:layout_marginStart="@dimen/text_size_12"
+        app:layout_constraintTop_toTopOf="@id/i3"
+        app:layout_constraintBottom_toBottomOf="@id/i3" />
+
+    <Button
+        android:id="@+id/item_clazz_delete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_clazz_getAttendance" />
+
+    <Button
+        android:id="@+id/item_clazz_getAttendance"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="@dimen/text_size_12"
+        android:background="@drawable/image1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/item_clazz_delete"
+        app:layout_constraintTop_toBottomOf="@id/item_clazz_position" />
+
+    <Button
+        android:id="@+id/item_clazz_attendance"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="@dimen/text_size_12"
+        android:background="@drawable/image2"
+        app:layout_constraintEnd_toStartOf="@id/item_clazz_getAttendance"
+        app:layout_constraintTop_toTopOf="@id/item_clazz_getAttendance" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Work Attendance App</string>
+
+    <!-- 图标 -->
+    <string name="image_login_name">&#xe63c;</string>
+    <string name="image_login_pwd">&#xe627;</string>
+    <string name="image_edittext_delete">&#xe692;</string>
+    <string name="image_login_pwd_according">&#xe72f;</string>
+    <string name="image_login_pwd_hidden">&#xe61f;</string>
+    <string name="image_login_weChat">&#xe717;</string>
+    <string name="image_mobile">&#xe60c;</string>
+    <string name="image_verification_code">&#xe612;</string>
+    <string name="image_password">&#xe627;</string>
+    <string name="image_bule_more">&#xe611;</string>
+    <string name="image_update_password_new">&#xe613;</string>
+
+    <string name="login_username">username:</string>
+    <string name="login_password">password:</string>
+    <string name="login_name_hint">enter your username</string>
+    <string name="login_pwd_hint">enter your password</string>
+    <string name="login_repwd_hint">confirm password</string>
+    <string name="login_login">login</string>
+    <string name="login_register">register</string>
+    <string name="login_name_null">user name cannot be empty!</string>
+    <string name="login_pwd_null">password cannot be empty!!</string>
+    <string name="login_password_different">the two passwords are different!!</string>
+    <string name="register_success">register success!!</string>
+    <string name="login_error">account password error!</string>
+
+    <string name="clazz_manage">class</string>
+    <string name="student_manage">beanS</string>
+
+    <string name="add">add</string>
+    <string name="add_clazz">add class</string>
+    <string name="clazz_name">class name:</string>
+    <string name="clazz_name_hint">enter classname</string>
+    <string name="clazz_startTime">class startTime:</string>
+    <string name="clazz_startTime_hint">enter startTime</string>
+    <string name="clazz_endTime">class endTime:</string>
+    <string name="clazz_endTime_hint">enter endTime</string>
+
+    <string name="add_success">add success</string>
+    <string name="student_select">please select a beanS</string>
+
+    <string name="confirm">confirm</string>
+
+    <string name="enter_student">enter beanS info</string>
+    <string name="enter_id">enter beanS id</string>
+    <string name="enter_name">enter beanS name</string>
+    <string name="id">id:</string>
+    <string name="name">name:</string>
+
+</resources>
